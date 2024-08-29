@@ -2,7 +2,6 @@ const User = require("../model/User/User")
 const bcrypt = require("bcryptjs");
 const generateToken = require("../utils/generateToken");
 const appErr = require("../utils/appErr");
-// const Post = require("../model/Post/Post");
 
 const Category = require("../model/category/category");
 const Post = require("../model/Post/Post");
