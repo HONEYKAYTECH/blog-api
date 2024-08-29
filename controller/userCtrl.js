@@ -3,9 +3,10 @@ const bcrypt = require("bcryptjs");
 const generateToken = require("../utils/generateToken");
 const appErr = require("../utils/appErr");
 // const Post = require("../model/Post/Post");
-const Comment = require("../model/comment/comment");
+
 const Category = require("../model/category/category");
 const Post = require("../model/Post/Post");
+const Comment = require("../model/comment/comment");
 
 //Register
 const register = async (req, res, next) => {
